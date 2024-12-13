@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    padding: 0 10px;
+}
+
+.logo img {
+    margin-top: 5px;
+    width: 50px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(111, 161, 161);
+    color: rgb(40, 36, 44);
+    height: 50px;
+}
+
+.content {
+    font-family: 'Potta One', cursive;
+    font-size: 25px;
+}
+
+.container{
+    /* background-color: rgb(235, 168, 168); */
+    color: black;
+    width: 50vw;
+    padding: 32px 0;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.toolbar-item button {
+    cursor: pointer !important;
+    color: #ffffff !important;
+    border: 3px solid #f1eee7 !important;
+    border-radius: 8px !important;
+
+}
